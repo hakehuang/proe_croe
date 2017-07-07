@@ -1,0 +1,185 @@
+﻿Build started 2017/7/7 22:25:10.
+     1>Project "C:\projects\proe\Midi\Midi\Midi.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="11.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\projects\proe\Midi\x64\Debug\Midi.dll" /INCREMENTAL /NOLOGO mpr.lib wsock32.lib psapi.lib netapi32.lib protk_dllmd.lib /NODEFAULTLIB:libcmt /NODEFAULTLIB:libcmtd /DEF:".\Midi.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /PDB:"C:\projects\proe\Midi\x64\Debug\Midi.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\projects\proe\Midi\x64\Debug\Midi.lib" /MACHINE:X64 /FORCE /DLL x64\Debug\Midi.res
+         x64\Debug\CreateMidiCurveDlg.obj
+         x64\Debug\CreoMFCDialog.obj
+         x64\Debug\global.obj
+         x64\Debug\Midi.obj
+         x64\Debug\stdafx.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     1>protk_dllmd.lib(srcwrappers.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcwrappers.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcmemmgr_common.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcmemmgr_common.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcmemmgr.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcmemmgr.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcunicode.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcunicode.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcnet.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcnet.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcutf.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcutf.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srccore.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srccore.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srci18n.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srci18n.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcutfstr.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcutfstr.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcmemmgr_mt.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcmemmgr_mt.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcsandbox.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcsandbox.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcsconv.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcsconv.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcmtbase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcmtbase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcmemmgr_slim.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcmemmgr_slim.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcbase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcbase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(baselibsrc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(baselibsrc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srccoll.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srccoll.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(bufsrc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(bufsrc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(stringsrc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(stringsrc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(osapisrc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(osapisrc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(streamsrc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(streamsrc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcstream.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcstream.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcproc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcproc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcstdstream.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcstdstream.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(ostoolssrc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(ostoolssrc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(threadlibsrc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(threadlibsrc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(membufsrc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(membufsrc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uniset.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uniset.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(chariter.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(chariter.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locdispnames.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locdispnames.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(utext.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(utext.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(ubrk.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(ubrk.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcstring.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcstring.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srctime.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srctime.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(nmscomm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(nmscomm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(nmsclnt.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(nmsclnt.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(stackwalksrc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(stackwalksrc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(udata.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(udata.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uset.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uset.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(unistr.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(unistr.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uhash_us.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uhash_us.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(util.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(util.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(bmpset.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(bmpset.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(unisetspan.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(unisetspan.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locid.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locid.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locresdata.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locresdata.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locavailable.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locavailable.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(brkiter.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(brkiter.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbi.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbi.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbirb.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbirb.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcps.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcps.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(stringpiece.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(stringpiece.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(charstr.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(charstr.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uniset_props.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uniset_props.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(ustrenum.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(ustrenum.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servnotf.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servnotf.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(serv.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(serv.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servlkf.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servlkf.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servrbf.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servrbf.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servls.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servls.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locbased.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locbased.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uchriter.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uchriter.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(schriter.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(schriter.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbidata.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbidata.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(brkeng.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(brkeng.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbinode.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbinode.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbiscan.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbiscan.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbisetb.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbisetb.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbitblb.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbitblb.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcenv.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(srcenv.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(unistr_case.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(unistr_case.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uprops.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(uprops.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(ruleiter.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(ruleiter.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(normalizer2impl.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(normalizer2impl.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(normalizer2.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(normalizer2.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(ucol_swp.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(ucol_swp.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locutil.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(locutil.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(resbund.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(resbund.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servlk.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servlk.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servslkf.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(servslkf.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(dictbe.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(dictbe.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(triedict.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(triedict.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbistbl.ao) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in CreateMidiCurveDlg.obj
+     1>protk_dllmd.lib(rbbistbl.ao) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in CreateMidiCurveDlg.obj
+            Creating library C:\projects\proe\Midi\x64\Debug\Midi.lib and object C:\projects\proe\Midi\x64\Debug\Midi.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>C:\projects\proe\Midi\x64\Debug\Midi.dll : fatal error LNK1319: 166 mismatches detected
+     1>Done Building Project "C:\projects\proe\Midi\Midi\Midi.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.00

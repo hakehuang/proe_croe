@@ -1,0 +1,7 @@
+NAME       midi
+EXEC_FILE  C:\Midi\Midi.dll
+TEXT_DIR   C:\Midi\text
+STARTUP    dll
+ALLOW_STOP TRUE
+REVISION   23
+END
