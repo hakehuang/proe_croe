@@ -1,3 +1,8 @@
+ /* Copyright (C) 2017 Shanghai Yuanxue Machinery Technology Co., Ltd.
+ *
+ * All rights reserved
+ */
+
 #include "stdafx.h"
 #include "CreoMFCDialog.h"
 

@@ -1,3 +1,8 @@
+ /* Copyright (C) 2017 Shanghai Yuanxue Machinery Technology Co., Ltd.
+ *
+ * All rights reserved
+ */
+
 #pragma once
 
 // 包括 SDKDDKVer.h 将定义可用的最高版本的 Windows 平台。

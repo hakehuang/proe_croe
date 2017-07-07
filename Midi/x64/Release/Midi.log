@@ -1,9 +1,25 @@
-﻿Build started 2017/7/7 22:42:20.
+﻿Build started 2017/7/7 23:58:53.
      1>Project "C:\projects\proe\Midi\Midi\Midi.vcxproj" on node 2 (Build target(s)).
        Project file contains ToolsVersion="11.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _USRDLL /D PRO_USE_VAR_ARGS /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\Midi.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt Midi.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _USRDLL /D PRO_USE_VAR_ARGS /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\Midi.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _USRDLL /D PRO_USE_VAR_ARGS /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\Midi.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt CreateMidiCurveDlg.cpp CreoMFCDialog.cpp Midi.cpp global.cpp
+         CreateMidiCurveDlg.cpp
+     1>CreateMidiCurveDlg.cpp(262): warning C4101: 'sk_transf' : unreferenced local variable
+     1>CreateMidiCurveDlg.cpp(255): warning C4101: 'line' : unreferenced local variable
+     1>CreateMidiCurveDlg.cpp(259): warning C4101: 'entdim_ids' : unreferenced local variable
+     1>CreateMidiCurveDlg.cpp(260): warning C4101: 'dim_ids' : unreferenced local variable
+     1>CreateMidiCurveDlg.cpp(265): warning C4101: 'pnt_types' : unreferenced local variable
+     1>CreateMidiCurveDlg.cpp(261): warning C4101: 'edge2' : unreferenced local variable
+     1>CreateMidiCurveDlg.cpp(261): warning C4101: 'edge1' : unreferenced local variable
+     1>CreateMidiCurveDlg.cpp(266): warning C4101: 'w_message' : unreferenced local variable
+     1>CreateMidiCurveDlg.cpp(258): warning C4101: 'dim_pnt' : unreferenced local variable
+         CreoMFCDialog.cpp
          Midi.cpp
+         global.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Ix64\Release\ /nologo /fo"x64\Release\Midi.res" Midi.rc 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\projects\proe\Midi\x64\Release\Midi.dll" /INCREMENTAL:NO /NOLOGO mpr.lib wsock32.lib psapi.lib netapi32.lib protk_dllmd.lib /DEF:".\Midi.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /PDB:"C:\projects\proe\Midi\x64\Release\Midi.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\projects\proe\Midi\x64\Release\Midi.lib" /MACHINE:X64 /DLL x64\Release\Midi.res
          x64\Release\CreateMidiCurveDlg.obj
@@ -19,4 +35,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.79
+Time Elapsed 00:00:10.65

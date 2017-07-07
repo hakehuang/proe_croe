@@ -88,6 +88,10 @@ extern "C" __declspec(dllexport) int user_initialize(
 
 	return 0;
 }
+ /* Copyright (C) 2017 Shanghai Yuanxue Machinery Technology Co., Ltd.
+ *
+ * All rights reserved
+ */
 
 int CreateMidiCurve()
 {

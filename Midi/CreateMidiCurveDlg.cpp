@@ -1,4 +1,9 @@
-﻿// CreateMidiCurveDlg.cpp : 实现文件
+﻿ /* Copyright (C) 2017 Shanghai Yuanxue Machinery Technology Co., Ltd.
+ *
+ * All rights reserved
+ */
+
+// CreateMidiCurveDlg.cpp : 实现文件
 //
 
 #include "stdafx.h"

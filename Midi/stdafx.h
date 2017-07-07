@@ -1,3 +1,8 @@
+ /* Copyright (C) 2017 Shanghai Yuanxue Machinery Technology Co., Ltd.
+ *
+ * All rights reserved
+ */
+
 // stdafx.h : 标准系统包含文件的包含文件，
 // 或是经常使用但不常更改的
 // 特定于项目的包含文件
